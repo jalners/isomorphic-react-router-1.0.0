@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Test application with isomorphic React.js and React Router 1.0.0",
   "scripts": {
-    "start": "gulp & nodemon server.js"  
+    "start": "gulp & nodemon server.js"
   },
   "author": "Alexey Neretin <jalners@yandex.ru>",
   "license": "MIT",
@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "express": "^4.13.3",
+    "history": "^1.13.1",
     "lodash": "^3.10.1",
     "node-jsx-babel": "^0.14.0",
     "react": "^0.13.3",
